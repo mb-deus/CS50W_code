@@ -5,6 +5,14 @@ p {
     font-size: 14px;}
 h2.header {
     font-family: Georgia;}
+.container {
+    display: inline;
+    text-align: centre;
+    display: flex;
+    flex-wrap: wrap;}
+.row > div {
+    display: block;
+    text-align: centre;}
 #indextext {
     width: 750px;
     margin: 30px auto 30px auto;
@@ -31,7 +39,12 @@ img.small {
     height: 100px;}
 fieldset {
     border: 1px solid black;
-    width: 310px;
+    width: 620px;
     margin-top: 20px;
     line-height: 1.6em;}
+.navbar-brand {
+    font-family: Georgia;
+    font-size: 12px; 
+    margin-left: 80px;
+    margin-right: 80px;}
 
