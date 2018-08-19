@@ -1,15 +1,37 @@
-
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 12px;
-    padding-left: 12px
-}
-
-#loginlogo, #mainlogo {
-    align-content: center;
-    margin: 10px auto 25px auto
-}
-
-
-
+    padding-left: 12px;}
+p {
+    font-family: Georgia;
+    font-size: 14px;}
+h2.header {
+    font-family: Georgia;}
+#indextext {
+    width: 750px;
+    margin: 30px auto 30px auto;
+    text-align: center;}
+ul.footer {
+    width: 5700px;
+    text-align: centre;
+    display: inline;
+    margin: 20px;}
+ul.footer > li {
+    display: inline;
+    margin: 0px 4px;}
+#loginlogo #mainlogo {
+    display: block;
+    margin: 10px auto 25px auto;}
+img.align-centre {
+    display: block;
+    margin: 60px auto;}
+img.medium {
+    width: 400px;
+    height: 200px;}
+img.small {
+    width: 200px;
+    height: 100px;}
+fieldset {
+    border: 1px solid black;
+    width: 310px;
+    margin-top: 20px;
+    line-height: 1.6em;}
 
