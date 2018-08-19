@@ -39,12 +39,37 @@ img.small {
     height: 100px;}
 fieldset {
     border: 1px solid black;
-    width: 620px;
-    margin-top: 20px;
+    font-family: Georgia;
+    padding-left: 20px;
+    text-align: centre;
+    width: 480px;
+    margin-bottom: 50px;
+    margin-right: 20px;
     line-height: 1.6em;}
 .navbar-brand {
     font-family: Georgia;
+    background-color: #dbe0f0;
     font-size: 12px; 
+    color: black; 
     margin-left: 80px;
     margin-right: 80px;}
+.navbar fixed-bottom navbar-light bg-light {
+    background-color: #dbe0f0;
+    color: black; 
+}
+nav {
+    background-color: #dbe0f0;
+    color: black; 
+}
+.datatable,  {
+    padding: 50px;
+    text-align: left;
+}
+tr, th, td {
+    column-fill;
+    padding: 5px;
+    text-align: left;
+}
+th, tr {
 
+}
