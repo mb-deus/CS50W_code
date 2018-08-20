@@ -1,9 +1,9 @@
 body {
     padding-left: 12px;}
-p {
+p, table {
     font-family: Georgia;
     font-size: 14px;}
-h2.header {
+h5, div {
     font-family: Georgia;}
 .container {
     display: inline;
@@ -53,8 +53,8 @@ fieldset {
     color: black; 
     margin-left: 80px;
     margin-right: 80px;}
-.navbar fixed-bottom navbar-light bg-light {
-    background-color: #dbe0f0;
+.navbar-custom {
+    background-color: #dbe0f0 !important; 
     color: black; 
 }
 nav {
