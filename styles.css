@@ -15,10 +15,9 @@ h5, div {
     text-align: centre;}
 #indextext {
     width: 750px;
-    margin: 30px auto 30px auto;
+    margin: 30px auto 90px auto;
     text-align: center;}
 ul.footer {
-    width: 5700px;
     text-align: centre;
     display: inline;
     margin: 20px;}
@@ -56,6 +55,9 @@ fieldset {
 .navbar-custom {
     background-color: #dbe0f0 !important; 
     color: black; 
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
 }
 nav {
     background-color: #dbe0f0;
@@ -66,10 +68,15 @@ nav {
     text-align: left;
 }
 tr, th, td {
-    column-fill;
+    column-fill: balance;
     padding: 5px;
-    text-align: left;
-}
-th, tr {
+    text-align: left;}
 
-}
+@media (max-width: 750px) {
+        #ethicstext {
+            display: none;
+    }}
+@media (min-width: 750px) {
+        #ethicstextmobile {
+            display: none;
+    }}

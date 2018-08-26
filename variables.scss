@@ -1,15 +1,36 @@
+%inheritance {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
 
-$font: Georgia;
-
+$font: 'Georgia';
 ul {
-    font-family: $font;
-}
-
+    font-family: $font;}
 ol {
-    font-family: $font;
+    font-family: $font;}
+p {
+    font-family: $font;}
+
+.historytable {
+    h4 {
+        color: #c3bbff;}
 }
 
-p {
-    font-family: $font;
 
+
+.other1 {
+    @extend %inheritance;
+    background-color: #eee6ff;
+    
+}
+.other2 {
+    @extend %inheritance;
+    background-color: #ddccff;
+}
+.other3 {
+    @extend %inheritance;
+    background-color: #ccb3ff;
 }

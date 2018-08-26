@@ -1,0 +1,37 @@
+ul {
+  font-family: "Georgia";
+}
+
+ol {
+  font-family: "Georgia";
+}
+
+p {
+  font-family: "Georgia";
+}
+
+.historytable h4 {
+  color: #c3bbff;
+}
+
+.other3, .other2, .other1 {
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.other1 {
+  background-color: #eee6ff;
+}
+
+.other2 {
+  background-color: #ddccff;
+}
+
+.other3 {
+  background-color: #ccb3ff;
+}
+
+/*# sourceMappingURL=variables.css.map */
