@@ -1,0 +1,5 @@
+.container {
+    display: inline;
+    text-align: centre;
+    display: flex;
+    flex-wrap: wrap;}
