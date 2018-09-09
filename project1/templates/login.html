@@ -7,22 +7,24 @@
 
 {% block main %}
 
-<p>HELLO hello</p>
+<div>
+    <img src="/static/goodreadsimg.png" id="mainlogo">  
+</div>
 
 <div class="container">
     <div id="50_50L" class="col-lg-6">
-        <form>
+        <form action="/login">
             <legend>Log In</legend>
             <div class="form-group row">
               <label for="inputUserName3" class="col-sm-3 col-form-label">UserName</label>
               <div class="col-sm-8">
-                <input type="email" class="form-control" id="inputUserName3" placeholder="Username">
+                <input type="text" required class="form-control" id="inputUserName3" placeholder="Username" name="LI_uname">
               </div>
             </div>
             <div class="form-group row">
               <label for="inputPassword3" class="col-sm-3 col-form-label">Password</label>
               <div class="col-sm-8">
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                <input type="password" required class="form-control" id="inputPassword3" placeholder="Password" name="LI_pword">
               </div>
             </div>
             <div class="form-group row">
@@ -34,24 +36,24 @@
 
     </div>
     <div id="50_50R" class="col-lg-6">
-        <form>
+        <form action="/register">
             <legend>Register</legend>
             <div class="form-group row">
                 <label for="inputUserName3" class="col-sm-3 col-form-label">Username</label>
                 <div class="col-sm-8">
-                    <input type="text" class="form-control" id="inputUserName3" placeholder="Username">
+                    <input type="text" class="form-control" id="inputUserName3" placeholder="Username" name="R_uname">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="inputPassword3" class="col-sm-3 col-form-label">Password</label>
                 <div class="col-sm-8">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="R_pword1">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="inputPasswordConf3" class="col-sm-3 col-form-label">Password Confirm</label>
                 <div class="col-sm-8">
-                    <input type="password" class="form-control" id="inputPasswordConf3" placeholder="Password confirmation">
+                    <input type="password" class="form-control" id="inputPasswordConf3" placeholder="Password confirmation" name="R_pword2">
                 </div>
             </div>
             <div class="form-group row">
