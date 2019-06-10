@@ -15,10 +15,11 @@ def main():
     db.execute("CREATE TABLE books (book_id SERIAL PRIMARY KEY, isbn VARCHAR, title VARCHAR, author VARCHAR, year VARCHAR)")
 
     print(f"Opening books.....")
-    f = open("books2.csv")
+    f = open("books.csv")
     print(f"Reading books.....")
     reader = csv.reader(f)
-        # next(reader, None)
+    print(f"Skipping the header row.....")
+    skip = next(reader, None)
     print(f"Looping through books.....")
     line = 0
     for ISBN, title, author, year in reader:

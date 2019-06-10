@@ -1,0 +1,60 @@
+{% extends "template.html" %}
+
+{% block title %}
+    Home page and Search
+{% endblock %}
+
+{% block main %}
+
+
+<!--This is a comment. This page has been rolled forward from the login tempalte. Work is required to complete. Check the id tags-->
+
+
+<div>
+    <img src="/static/goodreadsimg.png" id="mainlogo">  
+</div>
+
+<div class="container">
+    <div id="50_50L" class="col-lg-6">
+        <form action="/homesearch">
+            <legend>Welcome</legend>
+            <div class="form-group row">
+              <label for="WelcomeText" class="col-sm-3 col-form-label">WelcomeText</label>
+              <div class="col-sm-8">
+                <p> text id="xx3" name="LI_uname"> </p>
+              </div>
+            </div>
+          </form>
+
+    </div>
+    <div id="50_50R" class="col-lg-6">
+        <form action="/search">
+            <legend>Book Search</legend>
+            <div class="form-group row">
+                <label for="inputUserName3" class="col-sm-3 col-form-label">Title</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="inputTitle" placeholder="Title" name="title">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-3 col-form-label">Author</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="inputAuthor" placeholder="Author" name="Author">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPasswordConf3" class="col-sm-3 col-form-label">ISDN</label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control" id="inputISDN" placeholder="ISDN" name="ISDN">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
